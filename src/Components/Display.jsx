@@ -8,7 +8,7 @@ export default function Display(props) {
 			<div>
 				<img
 					className="display-image"
-					src={`../src/assets/animalPhoto/${props.imageUrl}.png`}
+					src={`../public/animalPhoto/${props.imageUrl}.png`}
 				/>
 			</div>
 		</div>
