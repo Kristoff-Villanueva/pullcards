@@ -1,6 +1,6 @@
 import React from "react";
 import alphabet from "alphabet";
-import { album } from "../assets/album.js";
+import { animals } from "../assets/album.js";
 import { nanoid } from "nanoid";
 
 function Keyboard(props) {
@@ -9,7 +9,7 @@ function Keyboard(props) {
 			const letter = event.target.textContent;
 			const letterLower = letter.toLowerCase();
 			props.setLetterDisplay(letter);
-			props.setImageUrl(album[letterLower]);
+			props.setImageUrl(animals[letterLower]);
 		}
 
 		return (

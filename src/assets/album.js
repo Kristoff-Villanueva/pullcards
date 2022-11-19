@@ -1,4 +1,4 @@
-const album = {
+const animals = {
 	a: "ant",
 	b: "bear",
 	c: "cat",
@@ -27,4 +27,4 @@ const album = {
 	z: "zebra",
 };
 
-export { album };
+export { animals };
