@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* * {
+	border: 1px dashed red;
+} */
+
+.container {
+	border: 1px solid lightslategray;
+	padding: 10px 15px;
+	width: 400px;
+	height: 800px;
+	margin-top: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.keyboard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100%;
+	/* border: 1px solid red; */
+	align-content: flex-end;
+}
+
+.keys {
+	padding: 8px 12px;
+	background-color: whitesmoke;
+}
+
+.letterDisplay {
+	font-size: 100px;
+	margin: 0;
+}
