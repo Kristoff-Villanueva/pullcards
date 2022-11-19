@@ -6,13 +6,21 @@ import Display from "./Components/Display";
 function App() {
 	const [letterDisplay, setLetterDisplay] = useState("A");
 	const [imageUrl, setImageUrl] = useState("ant");
-
-	// console.log(imageUrl);
+	const [animalCategory, setAnimalCategory] = useState(true);
 
 	return (
 		<div className="container">
-			<Display imageUrl={imageUrl} letterDisplay={letterDisplay} />
-			<Keyboard setImageUrl={setImageUrl} setLetterDisplay={setLetterDisplay} />
+			<Display
+				imageUrl={imageUrl}
+				letterDisplay={letterDisplay}
+				animalCategory={animalCategory}
+			/>
+			<Keyboard
+				setImageUrl={setImageUrl}
+				setLetterDisplay={setLetterDisplay}
+				setAnimalCategory={setAnimalCategory}
+				animalCategory={animalCategory}
+			/>
 		</div>
 	);
 }

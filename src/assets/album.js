@@ -27,4 +27,33 @@ const animals = {
 	z: "zebra",
 };
 
-export { animals };
+const objects = {
+	a: "airplane",
+	b: "boat",
+	c: "computer",
+	d: "dish",
+	e: "envelope",
+	f: "fence",
+	g: "guitar",
+	h: "house",
+	i: "ice",
+	j: "jewelry",
+	k: "keys",
+	l: "leaves",
+	m: "motorcycle",
+	n: "net",
+	o: "oven",
+	p: "printer",
+	q: "question mark",
+	r: "rocket",
+	s: "scissors",
+	t: "tent",
+	u: "umbrella",
+	v: "vase",
+	w: "world",
+	x: "xray",
+	y: "yoghurt",
+	z: "zipper",
+};
+
+export { animals, objects };

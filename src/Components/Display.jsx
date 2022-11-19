@@ -8,10 +8,17 @@ export default function Display(props) {
 			<h1 className="letterDisplay">{props.letterDisplay}</h1>
 			<p className="item-name">{item}</p>
 			<div>
-				<img
-					className="display-image"
-					src={`animalPhoto/${props.imageUrl}.png`}
-				/>
+				{props.animalCategory ? (
+					<img
+						className="display-image"
+						src={`animalPhoto/${props.imageUrl}.png`}
+					/>
+				) : (
+					<img
+						className="display-image"
+						src={`objectPhoto/${props.imageUrl}.png`}
+					/>
+				)}
 			</div>
 		</div>
 	);
