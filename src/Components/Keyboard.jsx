@@ -1,11 +1,15 @@
 import React from "react";
 import alphabet from "alphabet";
+import { album } from "../assets/album.js";
 import { nanoid } from "nanoid";
 
 function Keyboard(props) {
 	const keyboardEl = alphabet.upper.map((letter) => {
 		function handleClick(event) {
-			props.setLetterDisplay(event.target.textContent);
+			const letter = event.target.textContent;
+			const letterLower = letter.toLowerCase();
+			props.setLetterDisplay(letter);
+			props.setImageUrl(album[letterLower]);
 		}
 
 		return (
