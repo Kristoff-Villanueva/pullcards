@@ -16,16 +16,16 @@ body {
 }
 
 .container {
-	border: 1px solid lightslategray;
 	padding: 10px 15px;
 	width: 400px;
 	height: 800px;
-	margin-top: 0px;
+	margin-top: 10px;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background-color: lightgray;
 }
 
 .keyboard {
@@ -46,6 +46,7 @@ body {
 	border-radius: 5px;
 	margin: 3px;
 	font-size: 20px;
+	border: none;
 }
 
 .letterDisplay {
@@ -59,4 +60,10 @@ body {
 	object-fit: cover;
 	border-radius: 10px;
 	object-position: top;
+}
+
+.keys:active,
+.keys:hover {
+	background-color: slategray;
+	color: whitesmoke;
 }
