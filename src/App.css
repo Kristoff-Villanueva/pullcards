@@ -5,16 +5,16 @@ body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* * {
+* {
 	border: 1px dashed red;
-} */
+}
 
 .container {
 	border: 1px solid lightslategray;
 	padding: 10px 15px;
 	width: 400px;
 	height: 800px;
-	margin-top: 20px;
+	margin-top: 0px;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
