@@ -23,10 +23,14 @@ function Keyboard(props) {
 
 	function handleAnimalClick() {
 		props.setAnimalCategory(true);
+		props.setImageUrl("ant");
+		props.setLetterDisplay("A");
 	}
 
 	function handleObjectClick() {
 		props.setAnimalCategory(false);
+		props.setImageUrl("airplane");
+		props.setLetterDisplay("A");
 	}
 
 	return (
