@@ -25,7 +25,10 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: lightgray;
+	position: relative;
+	background: url("bg-pullcard.png");
+	background-size: cover;
+	background-position: right;
 }
 
 .keyboard {
@@ -50,12 +53,14 @@ body {
 	margin: 3px;
 	font-size: 20px;
 	border: none;
+	box-shadow: 5px 5px 10px gray;
 }
 
 .letterDisplay {
 	font-size: 100px;
 	margin: 0;
 	margin-left: -5px;
+	text-shadow: 3px 3px 5px lightslategray;
 }
 
 .display-image {
@@ -64,6 +69,7 @@ body {
 	object-fit: cover;
 	border-radius: 10px;
 	object-position: top;
+	box-shadow: 5px 5px 10px gray;
 }
 
 .keys:active,
@@ -75,6 +81,7 @@ body {
 .item-name {
 	margin-top: 0;
 	font-size: 20px;
+	text-shadow: 3px 3px 5px lightslategray;
 }
 
 .categories {
@@ -96,10 +103,16 @@ body {
 	border-radius: 5px;
 	font-size: 20px;
 	padding: 8px 16px;
+	box-shadow: 5px 5px 10px gray;
 }
 
 .category-btn:active,
 .category-btn:hover {
 	background-color: slategray;
 	color: whitesmoke;
+}
+
+.footer-text {
+	text-shadow: 3px 3px 5px lightslategray;
+	text-align: center;
 }

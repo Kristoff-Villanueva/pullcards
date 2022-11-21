@@ -44,6 +44,7 @@ function Keyboard(props) {
 				</button>
 			</div>
 			<div className="keys-div">{keyboardEl}</div>
+			<p className="footer-text">© VillanuevaDev, Inc</p>
 		</div>
 	);
 }
