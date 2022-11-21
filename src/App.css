@@ -37,7 +37,7 @@ body {
 	/* border: 1px solid red; */
 	/* align-content: flex-end; */
 	padding-top: 0;
-	margin: 20px 0 15px 0;
+	margin: 20px 0 30px 0;
 	flex-direction: column;
 }
 
@@ -74,6 +74,7 @@ body {
 
 .item-name {
 	margin-top: 0;
+	font-size: 20px;
 }
 
 .categories {

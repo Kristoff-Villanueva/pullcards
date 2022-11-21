@@ -37,10 +37,10 @@ function Keyboard(props) {
 		<div className="keyboard">
 			<div className="categories">
 				<button onClick={handleAnimalClick} className="category-btn">
-					Animals
+					🦁Animals
 				</button>
 				<button onClick={handleObjectClick} className="category-btn">
-					Objects
+					🚀Objects
 				</button>
 			</div>
 			<div className="keys-div">{keyboardEl}</div>
