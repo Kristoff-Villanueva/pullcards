@@ -12,11 +12,13 @@ export default function Display(props) {
 					<img
 						className="display-image"
 						src={`animalPhoto/${props.imageUrl}.png`}
+						loading="lazy"
 					/>
 				) : (
 					<img
 						className="display-image"
 						src={`objectPhoto/${props.imageUrl}.png`}
+						loading="lazy"
 					/>
 				)}
 			</div>
